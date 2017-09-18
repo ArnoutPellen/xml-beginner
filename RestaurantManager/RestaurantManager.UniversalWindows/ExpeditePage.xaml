@@ -21,7 +21,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Content="*Clear All Orders" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Button>
+        <Button Content="Clear All Orders" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"></Button>
         <GridView Grid.Row="0">
             
         </GridView>
