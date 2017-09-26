@@ -29,8 +29,8 @@
         <TextBlock Text="Order Items:" Grid.Row="1" Grid.Column="2" VerticalAlignment="Top"></TextBlock>
         <Button Content="Add to Order" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"></Button>
         <Button Content="Submit Order" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"></Button>
-        <ListView Grid.Column="0" Grid.Row="2"></ListView>
-        <ListView Grid.Column="4" Grid.Row="2"></ListView>
+        <ListView Grid.Column="0" Grid.Row="2" ItemsSource="{Binding Source={StaticResource DataManager}, Path=MenuItems}"></ListView>
+        <ListView Grid.Column="4" Grid.Row="2" ItemsSource="{Binding Source={StaticResource DataManager}, Path=CurrentlySelectedMenuItems}"></ListView>
 
     </Grid>
 </Page>
